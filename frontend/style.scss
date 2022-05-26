@@ -1,0 +1,63 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    //border: 1px solid black;
+}
+
+body {
+    height: 100vh;
+
+    position: relative;
+}
+
+section, button {
+    background-color: #F9C582;
+}
+
+section {
+    width: 520px;
+    margin: 0 auto;
+    margin-top: 10%;
+
+
+    h1, div, input {
+        padding: 12px;
+    }
+
+    h1 {
+        //text-align: center;
+        //u.a. mint flex-el
+        display: flex;
+        justify-content: center;
+
+        background-color: white;
+
+    }
+
+    div {
+        input {
+            width: 492px;
+            color: #98A991;
+
+            background-color: white;
+        }
+    }
+}
+
+h1, button, p {
+    color: #006837;
+}
+
+button {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+
+    font-size: 36px;
+    font-weight: 700;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 12px;
+}

@@ -1,0 +1,55 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+section, button {
+  background-color: #F9C582;
+}
+
+section {
+  width: 520px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+section h1, section div, section input {
+  padding: 12px;
+}
+
+section h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+}
+
+section div input {
+  width: 492px;
+  color: #98A991;
+  background-color: white;
+}
+
+h1, button, p {
+  color: #006837;
+}
+
+button {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 12px;
+}
+/*# sourceMappingURL=style.css.map */
